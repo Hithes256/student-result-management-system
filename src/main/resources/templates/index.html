@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Student Result System</title>
+</head>
+<body>
+
+<h2>Student Result Management System</h2>
+
+<form action="/result" method="post">
+    Enter Marks:
+    <input type="number" name="marks" required />
+    <button type="submit">Submit</button>
+</form>
+
+<div th:if="${result}">
+    <p>Marks: <span th:text="${marks}"></span></p>
+    <p>Result: <b th:text="${result}"></b></p>
+    <p>Grade: <b th:text="${grade}"></b></p>
+</div>
+
+</body>
+</html>

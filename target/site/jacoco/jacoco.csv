@@ -1,2 +1,4 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-student-result-management-system,com.student.demo,StudentResultService,0,10,0,2,0,4,0,3,0,2
+student-result-management-system,com.student,ResultService,0,27,0,8,0,6,0,7,0,3
+student-result-management-system,com.student,ResultController,32,0,0,0,8,0,3,0,3,0
+student-result-management-system,com.student,StudentResultApplication,8,0,0,0,3,0,2,0,2,0

@@ -1,1 +1,3 @@
-com\student\demo\StudentResultService.class
+com\student\ResultController.class
+com\student\ResultService.class
+com\student\StudentResultApplication.class
