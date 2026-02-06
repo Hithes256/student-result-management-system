@@ -1,9 +1,5 @@
-FROM eclipse-temurin:17-jdk
-
+FROM openjdk:17
 WORKDIR /app
-
-COPY target/*.jar app.jar
-
+COPY target/student-result-1.0.jar app.jar
 EXPOSE 9090
-
-ENTRYPOINT ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "app.jar", "--server.port=9090"]
